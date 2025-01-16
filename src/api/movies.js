@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://movie-list-backend-smoky.vercel.app';
+axios.defaults.baseURL = 'https://movielist-backend-production.up.railway.app/';
 // axios.defaults.baseURL = 'http://localhost:3005';
 
 export function getAll() {
